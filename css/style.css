@@ -1,0 +1,186 @@
+body {
+	background-color: #E5E5E5;
+	font: 24px Roboto;
+	color: #000;
+	margin: 0 auto 0 auto;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	background-color: #EEEEEE;
+/*	padding-bottom: 32px;*/
+}
+
+#header {
+	position: relative;
+	height: 84px;
+	width: 100%;
+	background-image: url(../images/Rectangle.png);
+	position: fixed;
+	top: 0;
+	margin: 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 150px;
+	padding-top: 30px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+.nav div{
+	padding: 0 15px;
+	font-size: 22px;
+}
+
+
+#vector {
+	position: absolute;
+	top: 20px;
+	left: 140px;
+}
+
+#vector1 {
+	position: absolute;
+	top: 20px;
+	left: 140px;
+}
+
+#content {
+	padding: 32px 54px 0 55px;
+	width: 55%;
+	margin: 0 auto;
+}
+
+.problem {
+	text-align: center;
+	color: #007765;
+	margin-top: 16px;
+}
+
+#jumbotron {
+	height: 403px;
+	background-image: url(../images/jum.png);
+	background-size: 100%;
+	margin-top: 84px;
+}
+
+.piperNet {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 72px;
+	color: #FFFFFF;
+	font-weight: 500;
+	padding-top: 150px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+a:active {
+	color: #FFFFFF;
+}
+
+#hero {
+	height: 483px;
+	background-image: url(../images/hero.png);
+	background-size: 100%;
+}
+
+.her {
+	font-style: italic;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 48px;
+	padding: 125px 163px 0 163px;
+}
+
+.ppc {
+	text-align: center;
+	color: #007765;
+	margin-top: 48px;
+}
+
+.fl {
+	float: left;
+	margin-right: 50px;
+}
+
+.wrap {
+	background-color: #fff;
+}
+
+#ppc {
+	padding: 1px 54px 50px 55px;
+	width: 55%;
+	margin: 0 auto;
+}
+
+#team-block {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.teamh {
+	text-align: center;
+	color: #007765;
+	margin-top: 48px;
+}
+
+.team-body {
+	margin: 10px 10px;
+}
+
+.name {
+	font-weight: bold;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	color: #007765;
+}
+
+.desc {
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+}
+
+footer {
+	height: 176px;
+	background-color: #333;
+}
+
+.footer {
+	width: 40%;
+	margin: 20px auto;
+	padding-top: 50px;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+}
